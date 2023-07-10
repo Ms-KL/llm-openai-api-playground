@@ -1,2 +1,3 @@
-# openai-python-app
- Exploring the OpenAI Python Package via API
+# OpenAI Python App
+
+Exploring OpenAI via Python Package and API Endpoint
