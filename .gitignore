@@ -154,3 +154,4 @@ cython_debug/
 # personal files
 secret_key.py
 openai_key.txt
+openai_key_wadsih.txt
