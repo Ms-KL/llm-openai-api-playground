@@ -1,7 +1,8 @@
 # OpenAI Python App
 
-Exploring OpenAI via Python Package and API Endpoint
-Here is a simplified version of the instructions:
+Exploring OpenAI via Python Packages (Streamlit, Langchain, OpenAI) and API Endpoint
+
+![image](https://github.com/Ms-KL/openai-python-app/assets/92511648/dde36356-4782-4ca3-aebf-52483743699f)
 
 ## Resources:
 
