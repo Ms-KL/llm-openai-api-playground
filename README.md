@@ -4,6 +4,17 @@ Exploring OpenAI via Python Packages (Streamlit, Langchain, OpenAI) and API Endp
 
 ![image](https://github.com/Ms-KL/openai-python-app/assets/92511648/dde36356-4782-4ca3-aebf-52483743699f)
 
+## Goals:
+
+- ✅ create appropriate environments for Jupyter Notebook and app(s)
+- ✅ create OpenAI interactive bot script using Jupyter Notebooks
+- ✅ create simple Streamlit / Langchain / OpenAI App taking text and OpenAI App Key as input
+- ✅ embed .env variable for openai_api_key and incorporate check for env versus user input in app
+- add ability to upload document & ask questions on data
+- build on app to incorporate career history:
+  - pre-defined personal context: my resume, linkedin and github readme
+  - set prompt for users to ask questions regarding my personal data
+
 ## Resources:
 
 - [How to use ChatGPT API Python for Beginners - Full ChatBOT Tutorial](https://www.youtube.com/watch?v=Vurdg6yrPL8&list=PLpdmBGJ6ELUIYHjmzYTuePlNRf7yeCACz)
