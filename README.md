@@ -1,6 +1,8 @@
-# OpenAI Python App
+# Streamlit OpenAI Python App
 
 Exploring OpenAI via Python Packages (Streamlit, Langchain, OpenAI) and API Endpoint
+
+- See: [Streamlit OpenAI Python App](/streamlit_app.py) & [OpenAI App Jupyter Notebook](/openai_python.ipynb)
 
 ![image](https://github.com/Ms-KL/openai-python-app/assets/92511648/dde36356-4782-4ca3-aebf-52483743699f)
 
@@ -79,3 +81,33 @@ Don't have an OpenAI API Key? [Get one here](https://platform.openai.com/account
 
 1. Run the app
 2. Enter the OpenAI API Key in the window to the left
+
+<br>
+
+---
+
+# ChatGPT with PDF Data (Langchain)
+
+See: [Jupyter Notebook: ChatGPT with PDF Data](/chatgpt_with_pdf_app.ipynb)
+
+## How it works:
+
+- take pdf as input
+- break into smaller pieces (chunks <=512 tokens)
+  - allows receiving smaller responses based on queries
+- take chunks and embed one by one (1536 dimension vectors ADA-002)
+- put each chunk/embedding into vector db (FAISS) -> ready for recall when user queries
+- allow user to query database
+  - take in user query
+  - put through embedding model
+  - get back number of matched docs/embeddings
+  - parse through LLM (GPT3.5)
+  - send answer back to user
+
+## Note:
+
+- need to upload documents to reports folder
+
+## Resources:
+
+- [Youtube](https://youtu.be/au2WVVGUvc8)
