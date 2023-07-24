@@ -1,4 +1,6 @@
-# Contents: OpenAI Python Apps
+# LLM OpenAI API Playground
+
+## Contents:
 
 - [Streamlit OpenAI Python App](#streamlit-openai-python-app)
 - [ChatGPT with PDF Data (Langchain)](#chatgpt-with-pdf-data-langchain)
@@ -6,7 +8,7 @@
 
 ---
 
-# Streamlit OpenAI Python App
+## Streamlit OpenAI Python App
 
 Exploring OpenAI via Python Packages (Streamlit, Langchain, OpenAI) and API Endpoint
 
@@ -16,7 +18,7 @@ Exploring OpenAI via Python Packages (Streamlit, Langchain, OpenAI) and API Endp
 
 ![image](https://github.com/Ms-KL/openai-python-app/assets/92511648/dde36356-4782-4ca3-aebf-52483743699f)
 
-## Goals:
+### Goals:
 
 - ✅ create appropriate environments for Jupyter Notebook and app(s)
 - ✅ create OpenAI interactive bot script using Jupyter Notebooks
@@ -27,22 +29,22 @@ Exploring OpenAI via Python Packages (Streamlit, Langchain, OpenAI) and API Endp
   - pre-defined personal context: my resume, linkedin and github readme
   - set prompt for users to ask questions regarding my personal data
 
-## Resources:
+### Resources:
 
 - [How to use ChatGPT API Python for Beginners - Full ChatBOT Tutorial](https://www.youtube.com/watch?v=Vurdg6yrPL8&list=PLpdmBGJ6ELUIYHjmzYTuePlNRf7yeCACz)
 - [Build an LLM Powered App with Langchain, Streamlit & OpenAI](https://blog.streamlit.io/langchain-tutorial-1-build-an-llm-powered-app-in-18-lines-of-code/)
 - [OpenAI Documentation - API Reference](https://platform.openai.com/docs/api-reference/introduction)
 
-## Create a Python environment
+### Create a Python environment
 
-### Using Anaconda (for Jupyter Notebook):
+#### Using Anaconda (for Jupyter Notebook):
 
 1. Open the Anaconda PowerShell prompt.
 2. Create a new environment with Python 3.9: `conda create --name envpy39 python=3.9`
 3. Activate the environment: `conda activate envpy39`
 4. Install required packages: `pip install -q openai python-dotenv notebook`
 
-### Using venv (for .py files):
+#### Using venv (for .py files):
 
 1. Open a terminal or command prompt.
 2. Navigate to your project directory: `cd <path>`
@@ -58,16 +60,16 @@ Exploring OpenAI via Python Packages (Streamlit, Langchain, OpenAI) and API Endp
 - `pip list --user` (specific packages I installed)
 - `pip list` (all packages installed)
 
-## Run the project
+### Run the project
 
-### Jupyter Notebook:
+#### Jupyter Notebook:
 
 1. Open the Anaconda PowerShell prompt.
 2. Navigate to your project directory: `cd <path>`
 3. Activate the environment: `conda activate envpy39`
 4. Start Jupyter Notebook: `jupyter notebook`
 
-### .py files:
+#### .py files:
 
 1. Open a terminal or command prompt.
 2. Navigate to your project directory: `cd <path>`
@@ -78,16 +80,16 @@ Exploring OpenAI via Python Packages (Streamlit, Langchain, OpenAI) and API Endp
    - DRF: `python manage.py runserver`
    - Streamlit: `streamlit run <projectname.py>` view: http://localhost:8501/
 
-## Set your OpenAI API Key:
+### Set your OpenAI API Key:
 
 Don't have an OpenAI API Key? [Get one here](https://platform.openai.com/account/api-keys).
 
-### Save to your environment:
+#### Save to your environment:
 
 1. Create a file called: `.env`
 2. Enter the following: `OPENAI_API_KEY = <yourkeyhere>`
 
-### Enter in the App:
+#### Enter in the App:
 
 1. Run the app
 2. Enter the OpenAI API Key in the window to the left
@@ -96,17 +98,17 @@ Don't have an OpenAI API Key? [Get one here](https://platform.openai.com/account
 
 ---
 
-# ChatGPT with PDF Data (Langchain)
+## ChatGPT with PDF Data (Langchain)
 
 See:
 
 - [Jupyter Notebook: ChatGPT with PDF Data](/chatgpt_with_pdf_app.ipynb)
 
-## Resources:
+### Resources:
 
 - [Youtube](https://youtu.be/au2WVVGUvc8)
 
-## How it works:
+### How it works:
 
 - take pdf as input
 - break into smaller pieces (chunks <=512 tokens)
@@ -120,7 +122,7 @@ See:
   - parse through LLM (GPT3.5)
   - send answer back to user
 
-## Note:
+### Note:
 
 - need to upload documents to reports folder
 
@@ -128,12 +130,12 @@ See:
 
 ---
 
-# How to Build LLM Apps with LangChain
+## How to Build LLM Apps with LangChain
 
 See:
 
 - LLM App with Langchain: [Jupyter Notebook](/llm_app_with_langchain.ipynb)
 
-## Resources:
+### Resources:
 
 - [How to Build LLM Applications with LangChain (Datacamp)](https://www.datacamp.com/tutorial/how-to-build-llm-applications-with-langchain)
