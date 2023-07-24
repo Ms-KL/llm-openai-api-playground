@@ -1,8 +1,18 @@
+# Contents: OpenAI Python Apps
+
+- [Streamlit OpenAI Python App](#streamlit-openai-python-app)
+- [ChatGPT with PDF Data (Langchain)](#chatgpt-with-pdf-data-langchain)
+- [How to Build LLM Apps with Langchain](#how-to-build-llm-apps-with-langchain)
+
+---
+
 # Streamlit OpenAI Python App
 
 Exploring OpenAI via Python Packages (Streamlit, Langchain, OpenAI) and API Endpoint
 
-- See: [Streamlit OpenAI Python App](/streamlit_app.py) & [OpenAI App Jupyter Notebook](/openai_python.ipynb)
+- See:
+  - [Streamlit OpenAI Python App](/streamlit_app.py)
+  - [OpenAI App Jupyter Notebook](/openai_python.ipynb)
 
 ![image](https://github.com/Ms-KL/openai-python-app/assets/92511648/dde36356-4782-4ca3-aebf-52483743699f)
 
@@ -88,7 +98,13 @@ Don't have an OpenAI API Key? [Get one here](https://platform.openai.com/account
 
 # ChatGPT with PDF Data (Langchain)
 
-See: [Jupyter Notebook: ChatGPT with PDF Data](/chatgpt_with_pdf_app.ipynb)
+See:
+
+- [Jupyter Notebook: ChatGPT with PDF Data](/chatgpt_with_pdf_app.ipynb)
+
+## Resources:
+
+- [Youtube](https://youtu.be/au2WVVGUvc8)
 
 ## How it works:
 
@@ -108,6 +124,16 @@ See: [Jupyter Notebook: ChatGPT with PDF Data](/chatgpt_with_pdf_app.ipynb)
 
 - need to upload documents to reports folder
 
+<br>
+
+---
+
+# How to Build LLM Apps with LangChain
+
+See:
+
+- LLM App with Langchain: [Jupyter Notebook](/llm_app_with_langchain.ipynb)
+
 ## Resources:
 
-- [Youtube](https://youtu.be/au2WVVGUvc8)
+- [How to Build LLM Applications with LangChain (Datacamp)](https://www.datacamp.com/tutorial/how-to-build-llm-applications-with-langchain)
